@@ -1,0 +1,130 @@
+.home{
+    height: 400px;
+    width: 100%;
+    background-image: url("./resources/images/bg-masthead.jpg");
+    background-size: 100% 100%;
+}
+#navbar-toggler{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(195, 196, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#navbar-toggler::before{
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: rgb(117, 115, 115);
+    position: absolute;
+    transform: translateY(-4px);
+
+}
+#navbar-toggler::after{
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: rgb(117, 115, 115);
+    position: absolute;
+    transform: translateY(4px);
+
+}
+#navbar-toggler.open::before{
+    transform: rotate(45deg);
+}
+#navbar-toggler.open::after{
+    transform: rotate(-45deg);
+}
+.collapse{
+    height: 100vh;
+}
+
+.services{
+    background-color: rgb(3, 126, 168);
+}
+.find{
+    padding-top: 100px;
+}
+.fa-solid{
+    font-size: 170%;
+    background-color: white;
+    color:rgb(3, 126, 168) ;
+    padding: 16px;
+    margin: 10%;
+}
+.dowload{
+    height: 400px;
+    width: 100%;
+    background-image: url("./resources/images/bg-callout.jpg");
+    background-size: 100% 100%;
+}
+.stationary{
+    height: 250px;
+    width: 100%;
+    background-image: url("./resources/images/portfolio-1.jpg");
+    background-size: 100% 100%;
+}
+.iceCream{
+    height: 250px;
+    width: 100%;
+    background-image: url("./resources/images/portfolio-2.jpg");
+    background-size: 100% 100%;
+}
+.strawberries{
+    height: 250px;
+    width: 100%;
+    background-image: url("./resources/images/portfolio-3.jpg");
+    background-size: 100% 100%;
+}
+.workspace{
+    height: 250px;
+    width: 100%;
+    background-image: url("./resources/images/portfolio-4.jpg");
+    background-size: 100% 100%;
+}
+.text{
+   
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contact{
+    height: 300px;
+    background-color: rgb(3, 126, 168);
+}
+.map>img{
+    width: 100%;
+    height: 300px;
+}
+.fa-brands{
+    color:rgb(3, 126, 168);
+    font-size: 170%;
+    margin: 2%;
+}
+
+.footer{
+    padding: 3%;
+}
+.portfolio{
+    padding: 5%;
+}
+.services{
+    padding: 3%;
+}
+.about{
+    padding: 5%;
+}
+.btn{
+    margin-top: 10px;
+}
+@media (max-width: 480px) {
+    .clm{
+        margin: 10px;
+    }
+    
+}
+
+
+
